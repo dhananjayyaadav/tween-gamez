@@ -412,3 +412,50 @@ h1, h2, h3, h4, h5, h5, h6 {
         max-width: 1240px !important;
     }
 }
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px; 
+    }
+
+    p {
+        font-size: 14px; /* Decrease font size for paragraphs on mobile */
+        line-height: 1.5; /* Adjust line-height for paragraphs on mobile */
+    }
+
+    .btn.btn_free_game_transparent,
+    .btn.btn_free_game_black,
+    .btn.btn_free_game_black:hover {
+        padding: 8px 20px; /* Adjust padding for buttons on mobile */
+    }
+
+    .premium_box {
+        padding: 150px 20px 20px; /* Adjust padding for premium_box on mobile */
+    }
+
+    .banner_main_title {
+        font-size: 36px; /* Decrease font size for main title on mobile */
+    }
+
+    .playgame {
+        margin: 0;
+        width: 100%; /* Make it full width on mobile */
+    }
+
+    .top_logo {
+        padding: 10px 0;
+        border-bottom: 1px solid #ebebeb3d;
+    }
+
+    .menulist a.nav-link {
+        padding: 8px 10px;
+    }
+
+    .feature_overlay_first,
+    .feature_overlay {
+        opacity: 0.6; 
+    }
+
+}
+
+
